@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView, useRoute } from 'vue-router';
+import Footer from './components/Footer.vue';
+
 const route = useRoute();
 
 function isActive(path) {
@@ -55,6 +57,7 @@ function isActive(path) {
     </header>
 
     <RouterView />
+    <Footer />
   </div>
 </template>
 

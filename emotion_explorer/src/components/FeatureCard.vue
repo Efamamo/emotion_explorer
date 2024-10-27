@@ -6,10 +6,6 @@ defineProps({
     type: String,
     default: 'Title',
   },
-  image: {
-    type: String,
-    default: '/study_mode.png',
-  },
   description: {
     type: String,
     default: 'Description',
@@ -17,12 +13,11 @@ defineProps({
 });
 </script>
 <template>
-  <div
-    class="rounded-lg border border-gray-200 flex gap-4 max-w-3xl p-8 items-center flex-wrap"
-  >
-    <img :src="image" alt="feature img" class="max-w-xs rounded-lg" />
-    <div class="text-center max-w-xs">
-      <h3 class="text-center mb-4 text-xl font-semibold">{{ title }}</h3>
+  <div class="max-w-xl flex items-start gap-4 pl-4">
+    <img src="/radio.png" class="max-w-4 pt-1.5 items-center" alt="" />
+
+    <div>
+      <h3 class="text-xl font-semibold">{{ title }}</h3>
       <p>{{ description }}</p>
     </div>
   </div>

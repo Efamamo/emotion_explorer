@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-wrap justify-center gap-6 md:gap-20 items-center py-16 mt-10 mb-20 text-center px-5 md:px-0"
+    class="flex flex-wrap justify-center gap-6 md:gap-20 items-center py-16 mt-10 mb-20 text-center px-5 md:px-0 cta"
   >
     <img src="/start.gif" alt="" class="md:max-w-lg" style="max-width: 23rem" />
     <div class="px-10 py-20">
@@ -27,3 +27,28 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cta {
+  animation: appear 1.5s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+</style>

@@ -4,7 +4,7 @@
       <h2 class="text-center text-3xl font-semibold mb-10">Sign Up</h2>
       <form action="">
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Username</label>
+          <label class="text-lg text-gray-600" for="">Username</label>
           <input
             type="text"
             name=""
@@ -13,7 +13,7 @@
           />
         </div>
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Email</label>
+          <label class="text-lg text-gray-600" for="">Email</label>
           <input
             class="mt-1 p-2 border border-gray-400 rounded-lg"
             type="text"
@@ -22,7 +22,7 @@
           />
         </div>
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Password</label>
+          <label class="text-lg text-gray-600" for="">Password</label>
           <input
             type="password"
             name=""
@@ -32,7 +32,7 @@
         </div>
 
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Confirm Password</label>
+          <label class="text-lg text-gray-600" for="">Confirm Password</label>
           <input
             type="password"
             name=""

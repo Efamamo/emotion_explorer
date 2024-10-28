@@ -4,7 +4,7 @@
       <h2 class="text-center text-3xl font-semibold mb-10">Login</h2>
       <form action="">
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Username</label>
+          <label class="text-lg text-gray-600" for="">Username</label>
           <input
             type="text"
             name=""
@@ -14,7 +14,7 @@
         </div>
 
         <div class="flex flex-col my-4">
-          <label class="text-lg" for="">Password</label>
+          <label class="text-lg text-gray-600" for="">Password</label>
           <input
             type="password"
             name=""

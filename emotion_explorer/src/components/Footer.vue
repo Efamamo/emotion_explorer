@@ -1,5 +1,17 @@
+<script setup>
+import { RouterLink, RouterView, useRoute } from 'vue-router';
+const route = useRoute();
+function show() {
+  console.log(route.path !== '/login' && route.path !== '/signup');
+  return route.path !== '/login' && route.path !== '/signup';
+}
+</script>
+
 <template>
-  <footer class="bg-gray-100 text-black py-10">
+  <footer
+    class="bg-gray-100 text-black py-10"
+    :class="`${show() ? '' : 'hidden'}`"
+  >
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
       <!-- Logo and Description -->
       <div class="space-y-4">
@@ -18,15 +30,23 @@
         <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
         <ul class="space-y-2">
           <li>
-            <a href="/features" class="hover:underline">Features</a>
+            <RouterLink to="/features" class="hover:underline"
+              >Features</RouterLink
+            >
           </li>
           <li>
-            <a href="/about" class="hover:underline">About Us</a>
+            <RouterLink to="/about" class="hover:underline"
+              >About Us</RouterLink
+            >
           </li>
           <li>
-            <a href="/contact" class="hover:underline">Contact</a>
+            <RouterLink to="/contact" class="hover:underline"
+              >Contact</RouterLink
+            >
           </li>
-          <li><a href="/faq" class="hover:underline">FAQ</a></li>
+          <li>
+            <RouterLink to="/faq" class="hover:underline">FAQ</RouterLink>
+          </li>
         </ul>
       </div>
 

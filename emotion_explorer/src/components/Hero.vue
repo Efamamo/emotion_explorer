@@ -4,7 +4,7 @@ import Scroll from './Scroll.vue';
 
 <template>
   <div
-    class="flex items-center justify-center gap-32 pb-40 flex-wrap min-h-screen px-5 md:px-0"
+    class="flex items-center justify-center gap-32 flex-wrap min-h-screen px-5 md:px-0"
   >
     <img src="/unihero.png" alt="" class="max-w-80" />
     <div class="flex flex-col gap-6 items-center max-w-3xl">

@@ -8,6 +8,11 @@ function isActive(path) {
   }
   return route.path.includes(path);
 }
+
+function show() {
+  return route.path !== '/login' && route.path !== '/signup';
+}
+
 import { ref } from 'vue';
 import Sheet from './Sheet.vue';
 
@@ -20,7 +25,7 @@ function toggleSheet() {
 
 <template>
   <header class="hidden md:block">
-    <div>
+    <div :class="`${show() ? '' : 'hidden'}`">
       <nav class="flex gap-3 justify-between px-16 items-center mt-8 mb-5">
         <RouterLink to="/" class="flex-1">
           <img src="/studying.png" alt="" class="w-10" />

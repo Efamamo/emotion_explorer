@@ -1,6 +1,6 @@
 <template>
   <section
-    class="about-page py-10 px-4 md:px-20 text-gray-800 max-w-7xl mx-auto"
+    class="about-page py-12 px-4 md:px-20 text-gray-800 max-w-7xl mx-auto mt-10"
   >
     <!-- Page Title -->
     <div class="text-center mb-20">

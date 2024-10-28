@@ -18,7 +18,7 @@
           Get Started
         </RouterLink>
         <RouterLink
-          to="/download"
+          to="/signup"
           class="bg-transparent border-2 border-blue-600 px-4 py-1 md:px-8 md:py-3 rounded-full text-base md:text-lg font-semibold hover:bg-blue-600 hover:text-white"
         >
           Join Now

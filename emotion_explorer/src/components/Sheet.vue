@@ -6,7 +6,7 @@
     <div
       @click="close"
       class="sheet fixed top-0 right-0 bottom-0 max-w-sm bg-white p-4 w-full shadow-lg transform transition-transform duration-1000 ease-in-out"
-      :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }"
+      :class="{ 'translate-x-0 transition-all duration-500': isOpen, 'translate-x-full': !isOpen }"
     >
       <!-- Close Button -->
       <button class="absolute top-4 right-4 text-gray-500 hover:text-gray-800">

@@ -4,11 +4,11 @@ import { features } from '../constants/features';
 
 <template>
   <section
-    class="features-page py-12 px-4 md:px-20 text-gray-800 max-w-7xl mx-auto"
+    class="features-page py-12 px-4 md:px-20 text-gray-800 max-w-7xl mx-auto mt-10 mb-20"
   >
     <!-- Page Header -->
     <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold mb-4">Smart Study Features</h1>
+      <h1 class="text-3xl font-bold mb-4">Smart Study Features</h1>
       <p class="text-gray-600 max-w-2xl mx-auto">
         Explore powerful features designed to help you study efficiently and
         achieve your academic goals.

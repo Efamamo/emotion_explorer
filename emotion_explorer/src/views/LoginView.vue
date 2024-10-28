@@ -8,7 +8,6 @@
           <input
             type="text"
             name=""
-            id=""
             placeholder="Username"
             class="mt-1 p-2 border border-gray-400 rounded-lg"
           />
@@ -19,7 +18,6 @@
           <input
             type="password"
             name=""
-            id=""
             placeholder="Password"
             class="mt-1 p-2 border border-gray-400 rounded-lg"
           />

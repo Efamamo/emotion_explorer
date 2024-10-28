@@ -2,7 +2,6 @@
 import { RouterLink, RouterView, useRoute } from 'vue-router';
 const route = useRoute();
 function show() {
-  console.log(route.path !== '/login' && route.path !== '/signup');
   return route.path !== '/login' && route.path !== '/signup';
 }
 </script>
@@ -38,14 +37,6 @@ function show() {
             <RouterLink to="/about" class="hover:underline"
               >About Us</RouterLink
             >
-          </li>
-          <li>
-            <RouterLink to="/contact" class="hover:underline"
-              >Contact</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink to="/faq" class="hover:underline">FAQ</RouterLink>
           </li>
         </ul>
       </div>

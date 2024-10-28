@@ -34,30 +34,43 @@ function toggleSheet() {
           <RouterLink
             to="/"
             class="font-semibold text-lg"
-            :class="isActive('/') ? 'border-b text-blue-600' : ''"
+            :class="
+              isActive('/') ? 'border-b text-blue-600' : 'hover:text-gray-500'
+            "
             >Home</RouterLink
           >
           <RouterLink
             to="/about"
             class="font-semibold text-lg"
-            :class="isActive('/about') ? 'border-b text-blue-600' : ''"
+            :class="
+              isActive('/about')
+                ? 'border-b text-blue-600'
+                : 'hover:text-gray-500'
+            "
             >About</RouterLink
           >
 
           <RouterLink
             to="/features"
             class="font-semibold text-lg"
-            :class="isActive('/features') ? 'border-b text-blue-600' : ''"
+            :class="
+              isActive('/features')
+                ? 'border-b text-blue-600'
+                : 'hover:text-gray-500'
+            "
             >Features</RouterLink
           >
         </div>
         <div class="flex gap-4 items-center flex-1 justify-end">
-          <RouterLink to="/login" class="font-semibold text-lg">
+          <RouterLink
+            to="/login"
+            class="font-semibold text-lg hover:text-gray-500"
+          >
             Login
           </RouterLink>
           <RouterLink
             to="/signup"
-            class="font-semibold text-lg bg-black text-white px-6 py-2 rounded-full"
+            class="font-semibold text-lg bg-black text-white px-6 py-2 rounded-full hover:text-gray-200 hover:bg-gray-700"
           >
             Signup
           </RouterLink>

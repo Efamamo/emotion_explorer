@@ -5,7 +5,6 @@ const isVisible = ref(false);
 const handleScroll = () => {
   if (window.scrollY > 0) {
     isVisible.value = false;
-    console.log(isVisible.value);
   } else {
     isVisible.value = window.innerWidth > 780 && window.innerWidth > 400;
   }

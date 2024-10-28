@@ -2,7 +2,7 @@
   <div
     class="flex flex-wrap justify-center gap-6 md:gap-20 items-center py-16 mt-10 mb-20 text-center px-5 md:px-0"
   >
-    <img src="/start.gif" alt="" class="max-w-96 md:max-w-lg" />
+    <img src="/start.gif" alt="" class="md:max-w-lg" style="max-width: 23rem" />
     <div class="px-10 py-20">
       <h2 class="text-2xl md:text-3xl font-bold mb-6">
         Ready to Empower Your Brain?

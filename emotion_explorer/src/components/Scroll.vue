@@ -7,12 +7,12 @@ const handleScroll = () => {
     isVisible.value = false;
     console.log(isVisible.value);
   } else {
-    isVisible.value = window.innerWidth > 780;
+    isVisible.value = window.innerWidth > 780 && window.innerWidth > 400;
   }
 };
 
 onMounted(() => {
-  isVisible.value = window.innerWidth > 780;
+  isVisible.value = window.innerWidth > 780 && window.innerWidth > 400;
   window.addEventListener('scroll', handleScroll);
 });
 </script>

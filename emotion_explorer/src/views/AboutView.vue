@@ -4,7 +4,7 @@
   >
     <!-- Page Title -->
     <div class="text-center mb-20">
-      <h1 class="text-4xl font-bold mb-4">About Smart Study</h1>
+      <h1 class="text-3xl font-bold mb-4">About Smart Study</h1>
       <p class="text-gray-600 max-w-2xl mx-auto">
         Your all-in-one study companion for organizing tasks, creating custom
         flashcards, and tracking progress to help you reach your academic goals
@@ -16,7 +16,7 @@
     <div
       class="mission-section bg-gray-50 border-l-4 border-blue-500 shadow-md rounded-lg p-8 mb-20"
     >
-      <h2 class="text-3xl font-semibold mb-4 text-blue-500">Our Mission</h2>
+      <h2 class="text-2xl font-semibold mb-4 text-blue-500">Our Mission</h2>
       <p class="text-gray-700">
         At Smart Study, our mission is to empower students to excel in their
         studies by providing tools that make learning efficient and enjoyable.
@@ -29,7 +29,7 @@
     <div
       class="mission-section bg-gray-50 border-l-4 border-blue-500 shadow-md rounded-lg p-8 mb-20"
     >
-      <h2 class="text-3xl font-semibold mb-4 text-blue-500">Our Vision</h2>
+      <h2 class="text-2xl font-semibold mb-4 text-blue-500">Our Vision</h2>
       <p class="text-gray-700">
         We envision a future where students around the world have access to
         tools that make learning personalized, accessible, and effective,
@@ -39,7 +39,7 @@
 
     <!-- Our Team Section -->
     <div class="team-section bg-white shadow-md rounded-lg p-6 mb-12">
-      <h2 class="text-3xl font-semibold text-center mb-8">Meet Our Team</h2>
+      <h2 class="text-2xl font-semibold text-center mb-8">Meet Our Team</h2>
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <!-- Team Member Card -->
         <div class="team-member text-center">
@@ -74,11 +74,7 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'About',
-};
-</script>
+<script></script>
 
 <style scoped>
 .about-page {

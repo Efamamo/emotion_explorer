@@ -3,7 +3,10 @@
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
       <!-- Logo and Description -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold">Smart Study</h2>
+        <div class="flex gap-4">
+          <img src="/studying.png" alt="" class="w-8" />
+          <h2 class="text-2xl font-semibold">Smart Study</h2>
+        </div>
         <p>
           Your all-in-one study companion. Organize tasks, create flashcards,
           and track progress with ease.
